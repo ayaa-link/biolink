@@ -1,205 +1,229 @@
 <!DOCTYPE html>
-
-<html class="light" lang="en"><head>
+<html lang="id">
+<head>
 <meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Welcoma Fam!</title>
-<!-- Fonts -->
-<link href="https://fonts.googleapis.com" rel="preconnect"/>
-<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
-<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Be+Vietnam+Pro:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
-<!-- Material Symbols -->
-<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-<!-- Font Awesome for Brand Logos -->
-<link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" referrerpolicy="no-referrer" rel="stylesheet"/>
-<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-<script id="tailwind-config">
-      tailwind.config = {
-        darkMode: "class",
-        theme: {
-          extend: {
-            colors: {
-              "on-error": "#fff7f6",
-              "on-primary-container": "#1e5d3d",
-              "error-dim": "#67040d",
-              "error-container": "#fa746f",
-              "surface-container-lowest": "#ffffff",
-              "on-secondary-container": "#42564e",
-              "secondary-dim": "#445750",
-              "surface-bright": "#f8faf9",
-              "on-primary-fixed-variant": "#296746",
-              "tertiary": "#2e6770",
-              "inverse-surface": "#0b0f0f",
-              "tertiary-container": "#b9f2fd",
-              "on-tertiary-fixed-variant": "#2e6770",
-              "on-secondary-fixed": "#30433c",
-              "surface-container-high": "#e4e9e8",
-              "secondary-container": "#d1e7dd",
-              "primary": "#2d6a49",
-              "on-tertiary-container": "#225d66",
-              "on-surface": "#2d3433",
-              "background": "#f8faf9",
-              "secondary-fixed": "#d1e7dd",
-              "on-tertiary-fixed": "#054a53",
-              "on-error-container": "#6e0a12",
-              "on-secondary": "#e8fef4",
-              "tertiary-fixed": "#b9f2fd",
-              "secondary-fixed-dim": "#c4d9d0",
-              "tertiary-fixed-dim": "#abe3ee",
-              "surface-dim": "#d4dbda",
-              "surface-variant": "#dde4e3",
-              "on-background": "#2d3433",
-              "surface-container": "#eaefee",
-              "primary-container": "#b0f1c7",
-              "error": "#a83836",
-              "primary-dim": "#1f5e3e",
-              "primary-fixed": "#b0f1c7",
-              "tertiary-dim": "#205b64",
-              "primary-fixed-dim": "#a2e3b9",
-              "inverse-primary": "#bbfdd2",
-              "on-tertiary": "#ecfcff",
-              "outline-variant": "#acb3b2",
-              "surface-container-highest": "#dde4e3",
-              "on-surface-variant": "#596060",
-              "on-secondary-fixed-variant": "#4c6058",
-              "surface-tint": "#2d6a49",
-              "on-primary": "#e7ffec",
-              "surface-container-low": "#f0f4f3",
-              "outline": "#757c7b",
-              "on-primary-fixed": "#02492b",
-              "inverse-on-surface": "#9b9d9d",
-              "surface": "#f8faf9",
-              "secondary": "#4f635c"
-            },
-            fontFamily: {
-              "headline": ["Plus Jakarta Sans"],
-              "body": ["Be Vietnam Pro"],
-              "label": ["Plus Jakarta Sans"]
-            },
-            borderRadius: {"DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px"},
-          },
-        },
-      }
-    </script>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"/>
+<meta name="theme-color" content="#7a2438"/>
+<title>billy 💚 ayaa — Welcoma Fam!</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 <style>
-        body {
-            background: radial-gradient(circle at top right, #e8fef4 0%, #f8faf9 100%);
-            min-height: 100vh;
-        }
-        .glass-card {
-            background: rgba(255, 255, 255, 0.6);
-            backdrop-filter: blur(20px);
-            -webkit-backdrop-filter: blur(20px);
-        }
-        .material-symbols-outlined {
-            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
-        }
-        .soft-aura {
-            box-shadow: 0 0 40px 10px rgba(45, 106, 73, 0.08);
-        }
-    </style>
+  :root{
+    --cream:#f5f2ec;      /* latar logo */
+    --paper:#fbf9f5;
+    --maroon:#7a2438;     /* lingkaran logo */
+    --wine:#4a1424;       /* teks gelap */
+    --plum:#7b3550;       /* hijab */
+    --rose:#d98b9b;
+    --peach:#f6d7be;      /* kulit / aksen hangat */
+    --line:rgba(122,36,56,.16);
+    --ink-soft:#7d5560;
+  }
+  *{box-sizing:border-box;margin:0}
+  html{scroll-padding-top:env(safe-area-inset-top,0px)}
+  body{
+    font-family:'Nunito Sans',system-ui,sans-serif;
+    color:var(--wine);
+    background:var(--cream);
+    min-height:100vh;
+    padding:env(safe-area-inset-top,0px) 0 env(safe-area-inset-bottom,0px);
+    -webkit-font-smoothing:antialiased;
+  }
+  main{max-width:480px;margin:0 auto;padding:28px 20px 8px}
+
+  /* Hero: logo adalah elemen utama */
+  .hero{text-align:center}
+  .logo{
+    display:block;width:auto;height:auto;max-width:min(64%,240px);max-height:38vh;margin:0 auto;
+    mix-blend-mode:multiply;           /* latar PNG melebur dengan halaman */
+    animation:pop .9s cubic-bezier(.2,.9,.3,1.2) both;
+  }
+  @keyframes pop{from{opacity:0;transform:scale(.88) rotate(-2deg)}to{opacity:1;transform:none}}
+  .tagline{
+    margin:6px auto 22px;max-width:30ch;
+    font-size:.95rem;line-height:1.5;color:var(--ink-soft);font-weight:600;
+  }
+  .tagline b{color:var(--maroon);font-weight:700}
+
+  /* Donate */
+  .donate{
+    display:flex;align-items:center;justify-content:center;gap:10px;
+    padding:16px 24px;border-radius:999px;text-decoration:none;
+    font-family:'Baloo 2',sans-serif;font-weight:700;font-size:1.15rem;letter-spacing:.02em;
+    color:var(--paper);
+    background:linear-gradient(135deg,var(--maroon),var(--plum));
+    box-shadow:0 8px 0 var(--wine),0 14px 24px rgba(74,20,36,.25);
+    transform:translateY(0);
+    transition:transform .15s ease,box-shadow .15s ease;
+  }
+  .donate i{color:var(--peach)}
+  .donate:hover{transform:translateY(2px);box-shadow:0 6px 0 var(--wine),0 10px 20px rgba(74,20,36,.25)}
+  .donate:active{transform:translateY(8px);box-shadow:0 0 0 var(--wine),0 4px 10px rgba(74,20,36,.25)}
+  .donate-note{margin:18px 0 28px;text-align:center;font-size:.8rem;color:var(--ink-soft)}
+
+  /* Daftar link */
+  .group-title{
+    font-family:'Baloo 2',sans-serif;font-weight:700;font-size:1.05rem;
+    color:var(--maroon);margin:0 4px 10px;
+  }
+  .links{list-style:none;padding:0;margin:0 0 26px;background:var(--paper);border:1.5px solid var(--line);border-radius:22px;overflow:hidden}
+  .links li+li{border-top:1.5px solid var(--line)}
+  .link{
+    display:flex;align-items:center;gap:14px;padding:14px 16px;text-decoration:none;color:inherit;
+    transition:background .2s ease;
+  }
+  .link:hover{background:rgba(246,215,190,.35)}
+  .link:focus-visible,.donate:focus-visible{outline:3px solid var(--rose);outline-offset:3px}
+  .ico{
+    flex:none;width:46px;height:46px;border-radius:50%;
+    display:grid;place-items:center;font-size:1.2rem;
+    background:var(--maroon);color:var(--peach);
+    transition:transform .2s ease,background .2s ease;
+  }
+  .link:hover .ico{transform:rotate(-8deg) scale(1.06);background:var(--plum)}
+  .txt{flex:1;min-width:0}
+  .txt h3{font-family:'Baloo 2',sans-serif;font-weight:700;font-size:1.05rem;line-height:1.2;color:var(--wine)}
+  .txt p{font-size:.8rem;color:var(--ink-soft);margin-top:2px}
+  .go{color:var(--rose);font-size:.8rem;transition:transform .2s ease,color .2s ease}
+  .link:hover .go{transform:translateX(3px);color:var(--maroon)}
+
+  footer{
+    max-width:480px;margin:0 auto;padding:26px 20px 34px;text-align:center;
+    border-top:1.5px solid var(--line);
+  }
+  footer nav{display:flex;justify-content:center;gap:22px;margin-bottom:10px}
+  footer a{font-size:.8rem;font-weight:700;color:var(--plum);text-decoration:none}
+  footer a:hover{color:var(--maroon);text-decoration:underline}
+  footer p{font-size:.75rem;color:var(--ink-soft)}
+
+
+  /* ===== Responsive ===== */
+  .donate{width:100%}
+  .group-title{font-size:clamp(.95rem,3.8vw,1.05rem)}
+  .txt h3{font-size:clamp(.95rem,4vw,1.05rem)}
+  .txt p{overflow-wrap:anywhere}
+
+  /* HP kecil */
+  @media (max-width:380px){
+    main{padding:20px 14px 4px}
+    .link{padding:12px;gap:10px}
+    .ico{width:40px;height:40px;font-size:1.05rem}
+    .tagline{font-size:.88rem}
+  }
+
+  /* Tablet */
+  @media (min-width:600px){
+    main{max-width:560px;padding-top:40px}
+    .logo{max-width:280px}
+  }
+
+  /* Desktop: logo di kiri, link di kanan */
+  @media (min-width:900px){
+    main{
+      max-width:980px;padding:56px 32px 16px;
+      display:grid;grid-template-columns:minmax(300px,360px) 1fr;gap:56px;align-items:start;
+    }
+    .hero{position:sticky;top:40px}
+    .logo{max-width:320px;max-height:46vh}
+    .lists{padding-top:8px}
+    footer{max-width:980px}
+  }
+  @media (min-width:1200px){
+    main{max-width:1080px}
+  }
+
+  @media (prefers-reduced-motion:reduce){
+    *{animation:none!important;transition:none!important}
+  }
+</style>
 </head>
-<body class="font-body text-on-surface selection:bg-primary-container selection:text-on-primary-container">
-<main class="max-w-xl mx-auto px-6 pt-16 pb-16 flex flex-col items-center">
-<!-- Profile Section -->
-<section class="flex flex-col items-center text-center mb-12">
-<div class="relative mb-6">
-<!-- Soft Glow Aura -->
-<div class="absolute inset-0 bg-primary-container/40 blur-3xl rounded-full scale-150 -z-10"></div>
-<div class="w-28 h-28 rounded-full p-1 bg-gradient-to-tr from-primary to-primary-container soft-aura">
-<img alt="Gamer profile avatar" class="w-full h-full object-cover rounded-full border-4 border-surface" data-alt="Close-up portrait of a stylish young gamer woman with soft pastel hair and ethereal lighting in a high-end digital studio" src="1.png"/>
-</div>
-<!-- Aura Badge -->
-</div>
-<h1 class="font-headline text-3xl font-extrabold tracking-tight text-emerald-900 mb-1">billy 💚 ayaa</h1>
-<p class="text-secondary font-medium text-sm tracking-wide opacity-80 mb-6">✨ Gamer • Content Creator • Streamer 🍜 Foodie • Beauty • Lifestyle</p>
-<!-- Donate Action (Primary) -->
-<a class="group relative px-14 py-5 bg-gradient-to-br from-emerald-400 to-emerald-700 text-white font-headline font-bold rounded-full overflow-hidden transition-all duration-500 hover:scale-110 active:scale-95 shadow-lg shadow-emerald-500/30 hover:shadow-2xl hover:shadow-emerald-500/40 animate-pulse from-emerald-300 to-emerald-600 shadow-emerald-400/50 inline-flex items-center justify-center" href="https://sociabuzz.com/akumutan/donate">
-<div class="flex items-center gap-2 relative z-10">
-<span class="material-symbols-outlined text-lg">favorite</span>
-<span class="tracking-[0.2em] uppercase text-sm">Donate</span>
-</div>
-<div class="absolute inset-0 bg-white/20 opacity-0 group-hover:opacity-100 transition-opacity"></div>
-</a>
-</section>
-<!-- Link Cards Section (Bento Inspired Grid) -->
-<div class="w-full space-y-4">
-<!-- Instagram Billy -->
-<a class="glass-card flex items-center p-5 rounded-lg border border-outline-variant/15 hover:bg-surface-container-low transition-all duration-300 group" href="https://drive.google.com/drive/folders/1sz6cqvNS99VxBN6LAm99mzl5zzLyd-di?usp=sharing">
-<div class="w-12 h-12 flex items-center justify-center rounded-full bg-secondary-container/30 text-primary mr-4 group-hover:bg-primary-container/50 transition-colors">
-<i class="fa-brands fa-google-drive text-xl"></i>
-</div>
-<div class="flex-grow">
-<h3 class="font-headline font-semibold text-emerald-900">FOOTAGE FOR CLIPPER</h3>
-<p class="text-xs text-secondary/70">Download Footage untuk CLIPPER</p>
-</div>
-<span class="material-symbols-outlined text-outline-variant group-hover:text-primary transition-colors text-sm" data-icon="arrow_forward_ios">arrow_forward_ios</span>
-</a>
+<body>
+<main>
+  <section class="hero">
+    <img class="logo" src="1.png" width="720" height="960" alt="Logo billy &amp; ayaa: ilustrasi pasangan dengan lingkaran maroon"/>
+    <p class="tagline"><b>Welcoma Fam!</b> Ziggy zagga Ziggy to zagga Zig zig to zag zag Welcome to our family! Ziggy zagga Ziggy to zagga Zig zig to zag zag Hope you have fun!</p>
 
+    <a class="donate" href="https://sociabuzz.com/akumutan/support">
+      <i class="fa-solid fa-heart"></i><span>Donate</span>
+    </a>
+    <p class="donate-note">Dukungan kalian bikin kita terus semangat 😍 🫶</p>
+  </section>
 
+  <div class="lists">
+  <h2 class="group-title">Tonton &amp; ikuti</h2>
+  <ul class="links">
+    <li>
+      <a class="link" href="https://www.youtube.com/@billyayaa">
+        <span class="ico"><i class="fa-brands fa-youtube"></i></span>
+        <span class="txt"><h3>YouTube</h3><p>Kita double stream dan Replay ada di sini</p></span>
+        <i class="fa-solid fa-chevron-right go"></i>
+      </a>
+    </li>
+    <li>
+      <a class="link" href="https://www.instagram.com/billy_3l/">
+        <span class="ico"><i class="fa-brands fa-instagram"></i></span>
+        <span class="txt"><h3>Instagram Billy</h3><p>Bang Buji a.k.a onye</p></span>
+        <i class="fa-solid fa-chevron-right go"></i>
+      </a>
+    </li>
+    <li>
+      <a class="link" href="https://www.instagram.com/akuumutan/">
+        <span class="ico"><i class="fa-brands fa-instagram"></i></span>
+        <span class="txt"><h3>Instagram Ayaa</h3><p>Ayaa a.k.a sye sye</p></span>
+        <i class="fa-solid fa-chevron-right go"></i>
+      </a>
+    </li>
+  </ul>
 
-<a class="glass-card flex items-center p-5 rounded-lg border border-outline-variant/15 hover:bg-surface-container-low transition-all duration-300 group" href="https://www.youtube.com/@billyayaa">
-<div class="w-12 h-12 flex items-center justify-center rounded-full bg-secondary-container/30 text-primary mr-4 group-hover:bg-primary-container/50 transition-colors">
-<i class="fa-brands fa-youtube text-xl"></i>
-</div>
-<div class="flex-grow">
-<h3 class="font-headline font-semibold text-emerald-900">YouTube</h3>
-<p class="text-xs text-secondary/70">Nonton Replay yang ketinggalan Live</p>
-</div>
-<span class="material-symbols-outlined text-outline-variant group-hover:text-primary transition-colors text-sm" data-icon="arrow_forward_ios">arrow_forward_ios</span>
-</a>
-<a class="glass-card flex items-center p-5 rounded-lg border border-outline-variant/15 hover:bg-surface-container-low transition-all duration-300 group" href="https://www.instagram.com/billy_3l/">
-<div class="w-12 h-12 flex items-center justify-center rounded-full bg-secondary-container/30 text-primary mr-4 group-hover:bg-primary-container/50 transition-colors">
-<i class="fa-brands fa-instagram text-xl"></i>
-</div>
-<div class="flex-grow">
-<h3 class="font-headline font-semibold text-emerald-900">Instagram Billy</h3>
-<p class="text-xs text-secondary/70">Bang Billy a.k.a Monye</p>
-</div>
-<span class="material-symbols-outlined text-outline-variant group-hover:text-primary transition-colors text-sm" data-icon="arrow_forward_ios">arrow_forward_ios</span>
-</a>
-<!-- Instagram Ayaa -->
-<a class="glass-card flex items-center p-5 rounded-lg border border-outline-variant/15 hover:bg-surface-container-low transition-all duration-300 group" href="https://www.instagram.com/akuumutan/">
-<div class="w-12 h-12 flex items-center justify-center rounded-full bg-secondary-container/30 text-primary mr-4 group-hover:bg-primary-container/50 transition-colors">
-<i class="fa-brands fa-instagram text-xl"></i>
-</div>
-<div class="flex-grow">
-<h3 class="font-headline font-semibold text-emerald-900">Instagram Ayaa</h3>
-<p class="text-xs text-secondary/70">Ayaa a.k.a sye sye</p>
-</div>
-<span class="material-symbols-outlined text-outline-variant group-hover:text-primary transition-colors text-sm" data-icon="arrow_forward_ios">arrow_forward_ios</span>
-</a>
-<!-- WhatsApp Bisnis -->
-<a class="glass-card flex items-center p-5 rounded-lg border border-outline-variant/15 hover:bg-surface-container-low transition-all duration-300 group" href="https://wa.me/6282130007802">
-<div class="w-12 h-12 flex items-center justify-center rounded-full bg-secondary-container/30 text-primary mr-4 group-hover:bg-primary-container/50 transition-colors">
-<i class="fa-brands fa-whatsapp text-xl"></i>
-</div>
-<div class="flex-grow">
-<h3 class="font-headline font-semibold text-emerald-900">WhatsApp Bisnis</h3>
-<p class="text-xs text-secondary/70">Business inquiries &amp; collabs</p>
-</div>
-<span class="material-symbols-outlined text-outline-variant group-hover:text-primary transition-colors text-sm" data-icon="arrow_forward_ios">arrow_forward_ios</span>
-</a>
-<!-- Community (Discord) -->
-<a class="glass-card flex items-center p-5 rounded-lg border border-outline-variant/15 hover:bg-surface-container-low transition-all duration-300 group" href="https://discord.gg/bCHcmdxcm5">
-<div class="w-12 h-12 flex items-center justify-center rounded-full bg-secondary-container/30 text-primary mr-4 group-hover:bg-primary-container/50 transition-colors">
-<i class="fa-brands fa-discord text-xl"></i>
-</div>
-<div class="flex-grow">
-<h3 class="font-headline font-semibold text-emerald-900">Community (Discord)</h3>
-<p class="text-xs text-secondary/70">Join FAMILY</p>
-</div>
-<span class="material-symbols-outlined text-outline-variant group-hover:text-primary transition-colors text-sm" data-icon="arrow_forward_ios">arrow_forward_ios</span>
-</a>
-</div>
+  <h2 class="group-title">Gabung &amp; kolaborasi</h2>
+  <ul class="links">
+    <li>
+      <a class="link" href="https://discord.gg/VfM7FP5wjV">
+        <span class="ico"><i class="fa-brands fa-discord"></i></span>
+        <span class="txt"><h3>Community (Discord)</h3><p>Join FAMILY</p></span>
+        <i class="fa-solid fa-chevron-right go"></i>
+      </a>
+    </li>
+    <li>
+      <a class="link" href="https://wa.me/6282130007802">
+        <span class="ico"><i class="fa-brands fa-whatsapp"></i></span>
+        <span class="txt"><h3>WhatsApp Bisnis</h3><p>Business inquiries &amp; collabs</p></span>
+        <i class="fa-solid fa-chevron-right go"></i>
+      </a>
+    </li>
+  </ul>
+
+  <h2 class="group-title">Discord Server Fivem yang aku mainkan</h2>
+  <ul class="links">
+    <li>
+      <!-- GANTI "#" dengan link invite Discord Satu Mimpi -->
+      <a class="link" href="https://discord.gg/BpUw99H22">
+        <span class="ico"><i class="fa-brands fa-discord"></i></span>
+        <span class="txt"><h3>Discord Satu Mimpi Roleplay</h3><p>Buat yang main join Server FiveM Satu Mimpi</p></span>
+        <i class="fa-solid fa-chevron-right go"></i>
+      </a>
+    </li>
+    <li>
+      <!-- GANTI "#" dengan link invite Discord Narasi Roleplay -->
+      <a class="link" href="https://discord.gg/narasi">
+        <span class="ico"><i class="fa-brands fa-discord"></i></span>
+        <span class="txt"><h3>Discord Narasi Roleplay</h3><p>Buat yang mau join Server FiveM Narasi Roleplay</p></span>
+        <i class="fa-solid fa-chevron-right go"></i>
+      </a>
+    </li>
+  </ul>
+  </div>
 </main>
-<!-- Footer -->
-<footer class="w-full py-12 flex flex-col items-center gap-4 text-center bg-transparent">
-<div class="flex gap-6">
-<a class="font-be-vietnam text-xs uppercase tracking-widest font-medium text-emerald-600 dark:text-emerald-400 hover:text-emerald-900 dark:hover:text-white transition-colors opacity-80 hover:opacity-100" href="#">Privacy</a>
-<a class="font-be-vietnam text-xs uppercase tracking-widest font-medium text-emerald-600 dark:text-emerald-400 hover:text-emerald-900 dark:hover:text-white transition-colors opacity-80 hover:opacity-100" href="#">Terms</a>
-<a class="font-be-vietnam text-xs uppercase tracking-widest font-medium text-emerald-600 dark:text-emerald-400 hover:text-emerald-900 dark:hover:text-white transition-colors opacity-80 hover:opacity-100" href="#">Contact</a>
-</div>
-<p class="font-be-vietnam text-xs uppercase tracking-widest font-medium text-emerald-800 dark:text-emerald-200 opacity-60">© 2026 billy 💚 ayaa. All rights reserved.</p>
+
+<footer>
+  <nav>
+    <a href="#">Privacy</a>
+    <a href="#">Terms</a>
+    <a href="#">Contact</a>
+  </nav>
+  <p>© 2026 billy 💚 ayaa. All rights reserved.</p>
 </footer>
-</body></html>
+</body>
+</html>
